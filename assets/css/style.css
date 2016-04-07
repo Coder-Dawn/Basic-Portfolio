@@ -1,26 +1,226 @@
 
-
- #mypicture
-{
-	float:left;
-}
-
-h2
-{
-	color: blue;
-}
-
 body
 {
-	background-color: #eee;
+	color:black;
+	font-family: helvetica;
+	margin: 0px auto;
+	width: 1376px;
+
 }
 
-h2 span {
-        border-bottom:thick dotted #ff0000;
-      }
+html, body
+{
+	height:100%;
+}
 
-      h2 {
-    
-    border-bottom: 5px solid black;
-    
+#wrapper
+{
+	clear:both;
+	overflow: auto;
+	width: 1376px;
+	height: 552px;
+	border-top:2px solid #ccc;
+	padding: 40px;	
+
+}
+
+header {
+
+
+	height:100px;
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 0;
+	color: #333;	
+}
+
+section
+{
+	float: left;
+	background: #fff;
+	padding: 10px;
+	width: 650px;
+	margin: 10px 0px 0px 154px;
+
+}
+
+#social
+{
+float:right;
+background: #fff;
+padding:16px
+width:270px;
+height:190px;
+margin:10px 160px 0px 0px;
+}
+
+#socialheader
+{
+	position: relative;
+	left:882px;
+	bottom:328px;
+	color: #33999;
+	padding:15px;
+	border-bottom:1px solid #eee;
+	width: 15%;
+	font-size:20px:;
+
+}
+
+video
+{
+	margin:0;
+	border:0;
+	font:inherit;
+	vertical-align: baseline;
+
+}
+
+* {
+box-sizing: border-box;
+text-align: left;
+
+}
+
+
+.socialicons
+{
+position:relative;
+left: 345px;
+bottom:305px;
+padding:2px;
+}
+
+#sidebar
+{
+	width: 12%;
+	height: 85%;
+	background: #eee;
+	float: left;
+
+
+}
+
+#main
+{
+	width: 60%;
+	height: 67%;
+	background: white;
+	margin: 0 auto;
+	float;left;
+	padding-left: 30px;
+	overflow:auto;
+	
+
+
+}
+
+#connect
+{
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	float: right;
+
+
+}
+
+ section h2 {
+   
+   color: #339999;
+   position:relative;
+   left: 22px
+   text-align: left;
+   width: 95%;
+   padding: 20px;
+   margin-bottom: 10px;
+   border-bottom: 2px solid #ddd;
+   font-size: 25px;
+
+}
+
+section p {
+
+	margin-right: 5px;
+	padding: 10px;
+}
+
+
+.fleft
+{
+float:left;
+}
+
+img, a, p
+{
+	padding: 20px;
+}
+
+h1
+{
+
+	padding: 20px;
+	background:#339999;
+	width: 230px;
+	height: 25px;
+	float:left;
+	padding-left: 45px
+
+}
+
+#myname
+{
+	font-size: 27px;
+	float: left;
+	padding: 50px;
+	width: 350px;
+	background: #33999;
+	color: #fff;
+	margin-left: 195px;
+}
+
+footer {
+	clear:both;
+	background: #666;
+	border-top: 5px solid #339999;
+	padding: 30px;
+	text-align: center;
+}
+
+aside {
+	float: left;
+	width: 36%;
+	padding:10px;
+}
+
+
+.bits
+{
+	text-decoration: none;
+	border-right: 1px solid #eee;
+
+}
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#777;
+	text-align:right;
+	padding:12px;
+}
+
+nav ul
+{
+	list-style-type: none:;
+	text-align: right;
+	position:relative;
+	right:222px;
+	top: 30px;
+}
+nav{
+
+	display: block;
 }
